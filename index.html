@@ -24,17 +24,16 @@
                 </div>
                 <div class="btn">
                     <div class="wrap-btn">
-                        <a href="" class="item-1"><img src="/assets/cart.svg" alt=""></a>
-                        <a href="" class="item-2"><img src="/assets/user.svg" alt=""></a>
+                        <a href="gio-hang.html" class="item-1"><img src="/assets/cart.svg" alt=""></a>
+                        <div class="user-menu">
+                            <img src="/assets/user.svg" alt="User" id="userBtn" style="width: 33px;height: 26px;">
+                            <div class="dropdown" id="dropdown">
+                                <a href="dashboard.html">Admin</a>
+                                <a href="index.html">Khách hàng</a>
+                            </div>
+                        </div>
                         <div class="line"></div>
                     </div>
-                    </div>
-                    <div class="menu-prf" >
-                        <select onchange="location = this.value;" class="menu-prf">
-                        <option>Bạn là?</option>
-                        <option value="dashboard.html">Admin</a></option>
-                        <option value="index.html">Khách hàng</a></option>
-                        </select>
                 </div>
             </div>
         </header>
@@ -156,5 +155,19 @@
             </div>
         </div>
     </div>
+    <script>
+        const btn = document.getElementById("userBtn");
+        const dropdown = document.getElementById("dropdown");
+        btn.onclick = () => {
+            dropdown.style.display =
+                dropdown.style.display === "block" ? "none" : "block";
+        };
+        // click ra ngoài thì đóng
+        document.addEventListener("click", (e) => {
+            if (!e.target.closest(".user-menu")) {
+                dropdown.style.display = "none";
+            }
+        });
+    </script>
 </body>
 </html>
