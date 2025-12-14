@@ -55,6 +55,11 @@ body {
     justify-content: center;
     align-items: center;
 }
+.main-body .container .header .navigation .menu:hover {
+    background-color: rgba(202, 157, 115, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
 .main-body .container .header .navigation .menu1 {
     width: 100%;
     height: 45px;
@@ -183,6 +188,11 @@ th {
     padding: 14px;
     text-align: center;
 }
+tr:hover {
+    background-color: rgba(202, 157, 115, 0.378);
+    color: rgba(42, 0, 0, 1);
+    cursor: default;
+}
 td {
     height: 60px;
     text-align: center;
@@ -212,6 +222,34 @@ td {
     font-size: 12px;
     background-color: rgba(138, 28, 28, 1);
     color: rgba(255, 255, 255, 1);
+}
+.button-act:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+} 
+.button-act2:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.box-tt {
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.icontt {
+    width: 32px;
+    height: 32px;
+}
+.icontt:hover {
+    border-radius: 25%;
+    background-color: rgba(255, 236, 220, 0.633);
+    box-shadow: 2px 1px 1px 1px rgba(184, 138, 102, 0.445);
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .main-body .container .content .main-content .box-inner .box2 {
     width: 100%;
@@ -291,6 +329,7 @@ td {
     border: 1px solid rgba(1, 130, 11, 1);
     position: absolute;
     left: 80%;
+    cursor: pointer;
 }
 .type-of-gift .box-line .line2 {
     width: 100%;
@@ -306,6 +345,7 @@ td {
     border: 1px solid rgba(153, 98, 15, 1);
     position: absolute;
     left: 40%;
+    cursor: pointer;
 }
 .type-of-gift .box-line .line3 {
     width: 100%;
@@ -321,6 +361,7 @@ td {
     border: 1px solid rgba(164, 11, 0, 1);
     position: absolute;
     left: 5%;
+    cursor: pointer;
 }
 
 
