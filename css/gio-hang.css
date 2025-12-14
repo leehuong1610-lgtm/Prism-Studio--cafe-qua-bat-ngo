@@ -185,6 +185,13 @@ input {
     align-items: center;
     gap: 15px;
 }
+.main-content .box-grid .item-grid:hover {
+    box-shadow: 2px 1px 6px 1px rgba(226, 217, 200, 1);
+    background-color: rgba(248, 231, 176, 0.345);
+    transform: scale(1.04);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 .main-content .box-grid .item-grid .box-content {
     display: flex;
     flex-direction: column;
@@ -263,7 +270,12 @@ input {
     border-radius: 12px;
     object-fit: contain;
 }
-
+.bg-pic {
+    width: 100%;
+    height: 230px;
+    border-radius: 12px;
+    background-color: rgba(203, 178, 123, 0.54);
+}
 
 .footer {
     width: 100%;
