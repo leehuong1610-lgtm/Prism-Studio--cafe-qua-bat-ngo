@@ -36,7 +36,7 @@ body{
         }
     }
     .wrap-container {
-        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
         background-color: #FFFAF2;
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 0 30px 30px 30px;
@@ -178,7 +178,7 @@ body{
             }
         }
         .wrap-container {
-            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
             background-color: #FFFAF2;
             border: 1px solid rgba(255, 255, 255, 0.3);
             border-radius: 0 30px 30px 30px;
