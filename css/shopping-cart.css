@@ -22,18 +22,21 @@ body {
     max-width: 1440px;
     padding: 46px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 38px;
 }
 .main-body .container .header {
     width: 176px;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     border-radius: 30px 70px;
     background-color: rgba(255, 242, 223, 0.27);
     border: 1px solid #FFFFFF;
-    padding: 35px 20px 295px;
+     backdrop-filter: blur(15.600000381469727px);
+    padding: 35px 20px 0;
 }
 .main-body .container .header .navigation {
     display: flex;
@@ -53,6 +56,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.main-body .container .header .navigation .menu:hover {
+    background-color: rgba(202, 157, 115, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
 }
 .main-body .container .header .navigation .menu1 {
     width: 100%;
@@ -76,6 +84,7 @@ body {
     padding: 30px;
     border-radius: 30px 100px;
     border: 1px solid #FFFFFF;
+     backdrop-filter: blur(15.600000381469727px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,16 +161,109 @@ input {
     width: 100%;
     border-radius: 15px 30px 15px 87px;
     background-color: rgba(255, 250, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.main-body .container .content .main-content .box-inner {
+.main-body .container .content .main-content .box-grid {
     width: 100%;
     padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    justify-items: center;
+    gap: 35px;
+}
+.main-content .box-grid .item-grid {
+    width: 95%;
+    border-radius: 18px;
+    padding: 10px 10px 30px 10px;
+    background-color: rgba(226, 217, 200, 0.2);
+    border: 1.5px solid rgba(226, 217, 200, 1);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
+.main-content .box-grid .item-grid .box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.main-content .box-grid .item-grid .box-content .name {
+    font-weight: 600;
+    font-size: 33px;
+    color: rgba(48, 38, 28, 1);
+}
+.main-content .box-grid .item-grid .box-content .cost {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(42, 0, 0, 1);
+}
+.main-content .box-grid .item-grid .box-content .box-btn {
+    width: 250px;
+    height: 29px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main-content .box-grid .item-grid .box-content .box-btn .btn-tt {
+    width: 60%;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.box-content .box-btn .btn-tt .btn-edit {
+    width: 50%;
+    height: 29px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(42, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 12px;
+}
+.main-content .box-grid .item-grid .box-content .box-btn .btn-buy {
+    width: 40%;
+    height: 29px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1, 130, 11, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+    font-size: 12px;
+}
+.image-coffee {
+    width: 100%;
+    height: 230px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.image-coffee2 {
+    width: 100%;
+    height: 230px;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.image-coffee3 {
+    width: 100%;
+    height: 230px;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
 
 .footer {
     width: 100%;
