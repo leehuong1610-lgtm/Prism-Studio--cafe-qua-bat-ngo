@@ -412,13 +412,19 @@
         .btn-action {
             width: 100%;
             margin-top: 10px;
-            background-color: #cca582;
+            background-color: #a07c5d;
             color: white;
             border: none;
             padding: 8px;
             border-radius: 8px;
             font-weight: bold;
             cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .btn-action:hover {
+            background-color: #7d5a44;
         }
 
         .top-products {
