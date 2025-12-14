@@ -34,6 +34,7 @@ body {
     border-radius: 30px 70px;
     background-color: rgba(255, 242, 223, 0.27);
     border: 1px solid #FFFFFF;
+     backdrop-filter: blur(15.600000381469727px);
     padding: 35px 20px 295px;
 }
 .main-body .container .header .navigation {
@@ -82,6 +83,7 @@ body {
     padding: 30px;
     border-radius: 30px 100px;
     border: 1px solid #FFFFFF;
+     backdrop-filter: blur(15.600000381469727px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -191,7 +193,12 @@ th {
 tr:hover {
     background-color: rgba(202, 157, 115, 0.378);
     color: rgba(42, 0, 0, 1);
+    font-weight: 500;
     cursor: default;
+    transition: all 0.3s ease;
+}
+.w220{
+    width: 220px;
 }
 td {
     height: 60px;

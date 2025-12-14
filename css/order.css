@@ -22,147 +22,146 @@ body {
     max-width: 1440px;
     padding: 46px 0;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.main-body .container .header {
-    width: 176px;
-    display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px 70px;
-    background-color: rgba(255, 242, 223, 0.27);
-    border: 1px solid #FFFFFF;
-    padding: 35px 20px 295px;
 }
-.main-body .container .header .navigation {
+.main-body .container .box-inner {
+    width: 1020px;
+    max-width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 37px;
+    gap: 25px;
 }
-.main-body .container .header .navigation .menu {
-    width: 100%;
-    height: 45px;
-    border-radius: 9px 18px;
-    background-color: rgba(255, 250, 242, 1);
-    color: rgba(42, 0, 0, 1);
-    font-size: 20px;
-    font-weight: 800;
+.main-body .container .box-inner .header {
+    width: 325px;
+    height: 80px;
+    border-radius: 100px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(255, 242, 223, 0.28);
+    backdrop-filter: blur(15.600000381469727px);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
-
-.main-body .container .header .navigation .menu1 {
-    width: 100%;
-    height: 45px;
-    border-radius: 9px 18px;
-    background-color: rgba(202, 157, 115, 1);
+.logo-sc {
+    width: 114px;
+    height: 48px;
+}
+.main-body .container .box-inner .header .text-logo {
+    width: 160px;
+    height: 48px;
+    padding-left: 10px;
+    border-left: 2px solid rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: -0.6px;
     color: rgba(255, 255, 255, 1);
-    font-size: 20px;
-    font-weight: 800;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
-.logo {
-    width: 127px;
-    height: 54px;
-    margin-bottom: 10px;
+.main-body .container .box-inner .main-content {
+    width: 100%;
+    padding: 36px;
+    border-radius: 52px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: rgba(255, 226, 182, 0.26);
+    backdrop-filter: blur(15.600000381469727px);
 }
-.main-body .container .content {
-    width: 85%;
-    padding: 30px;
-    border-radius: 30px 100px;
-    border: 1px solid #FFFFFF;
+.main-body .container .box-inner .main-content .box-wrap {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 27px;
-    background-color: rgba(255, 242, 223, 0.27);
-} 
-.main-body .container .content .navigation {
+    gap: 45px;
+}
+.main-body .container .box-inner .main-content .box-wrap .item {
     width: 100%;
-    height: 55px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: rgba(255, 250, 242, 1);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.main-body .container .content .navigation .nav-1 {
-    width: 230px;
-    height: 55px;
-    border-radius: 9px 18px;
-    background-color: rgba(255, 250, 242, 1);
-    font-size: 20px;
-    font-weight: 600;
+.cafe {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    object-fit: cover;
+}
+.main-content .box-wrap .item .box-cafe {
     display: flex;
+    flex-direction: column;
+    align-items: start;
     justify-content: center;
-    align-items: center;
+    gap: 25px;
 }
-.main-body .container .content .navigation .nav-2 {
-    width: 230px;
-    height: 55px;
-    border-radius: 9px 18px;
-    background-color: rgba(255, 250, 242, 1);
+.main-content .box-wrap .item .box-cafe .title-cf {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.6px;
+}
+.main-content .box-wrap .item .box-cafe .box-text-grid {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 40px;
 }
-.op-nav-2 {
-    width: 200px;
-    height: 55px;
-    padding: 0 35px;
-    background-color: rgba(255, 250, 242, 1);
-    font-size: 20px;
-    font-weight: 600;
-}
-select {
-    border: none;
-    outline: none;
-}
-.main-body .container .content .navigation .nav-3 {
-    width: 208px;
-    height: 55px;
-    border-radius: 9px 45px 9px 18px;
-    background-color: rgba(255, 250, 242, 1);
+.main-content .box-wrap .item .box-cafe .box-text-grid .box-text1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 20px;
+    align-items: start;
+    gap: 15px;
 }
-.op-nav-3 {
-    width: 120px;
-    height: 55px;
-    border-radius: 9px 45px 9px 18px;
-    background-color: rgba(255, 250, 242, 1);
-    font-size: 20px;
-    font-weight: 600;
+.main-content .box-wrap .item .box-cafe .box-text-grid .box-text1 .text-gr {
+font-weight: 500;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: -0.6px;
+color: rgba(33, 11, 11, 0.873);
 }
-.search {
-    width: 25px;
-    height: 26px;
-}
-input {
-    border: none;
-    outline: none;
-}
-.main-body .container .content .main-content {
-    width: 100%;
-    border-radius: 15px 30px 15px 87px;
-    background-color: rgba(255, 250, 242, 1);
-}
-.main-body .container .content .main-content .box-inner {
-    width: 100%;
-    padding: 30px;
+.main-content .box-wrap .item .button-cf {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
+.main-content .box-wrap .item .button-cf .btn-buy {
+    width: 180px;
+    height: 65px;
+    border-radius: 16px;
+    background-color: rgba(1, 130, 11, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.main-content .box-wrap .item .button-cf .btn-delete {
+    width: 100%;
+    height: 65px;
+    border-radius: 16px;
+    background-color: rgba(144, 10, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
 
 .footer {
     width: 100%;
