@@ -113,6 +113,7 @@
             font-size: 18px;
             line-height: 100%;
             letter-spacing: -0.6px;
+            align-content: center;
         }
 
         .nav-btn.active {
