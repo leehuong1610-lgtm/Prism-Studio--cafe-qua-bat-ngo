@@ -12,6 +12,7 @@
             align-items: center;
             min-height: 100vh;
             padding: 20px;
+            background-color: rgb(128, 127, 127);
             background-image: url("Pictures/background.svg");
             background-size: cover;
             background-position: center;
