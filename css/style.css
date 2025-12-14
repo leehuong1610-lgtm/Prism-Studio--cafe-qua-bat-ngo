@@ -4,6 +4,37 @@ body{
     margin: 0 auto;
     background-color: #FFFEFB;
 }
+.icon-prf {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+select option {
+    background-color: rgba(202, 157, 115, 1);
+    color: rgba(255, 255, 255, 1);
+}
+select {
+    border: none;
+    outline: none;
+}
+.menu-prf {
+    width: 200px;
+    height: 45px;
+    border-radius: 30px;
+    padding: 0 8px;
+    background-color: rgba(255, 250, 242, 1);
+    color: rgba(42, 0, 0, 1);
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-prf:hover {
+    background-color: rgba(202, 157, 115, 1);
+    color: rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
 .hero-section{
     position: relative;
     background: url(/assets/background.svg);
