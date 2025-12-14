@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Prism Coffee Dashboard</title>
+    <link href="dashboard.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <div class="logo-section">
+                <img src="image/Group 1.svg" class="logo-icon">
+            </div>
+            <div class="nav-menu">
+                <button class="nav-btn active">Tổng quan</button>
+                <button class="nav-btn inactive">Thực đơn</button>
+                <button class="nav-btn inactive">Quà</button>
+                <button class="nav-btn inactive">Đơn hàng</button>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="stats-row">
+                <div class="stat-card stat-card-gap">
+                    <div class="curve-bg curve-green"></div>
+                    <div class="stat-circle bg-green">
+                        <span class="label">Tăng</span>
+                        <span class="value">12%</span>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-title text-green">Doanh thu<br>hiện tại:</div>
+                        <div class="stat-number green">125.000.000 VNĐ</span></div>
+                    </div>
+                </div>
+                
+                <div class="stat-card stat-card-gap">
+                    <div class="curve-bg curve-red"></div>
+                    <div class="stat-circle bg-red">
+                        <span class="label">Giảm</span>
+                        <span class="value">5%</span>
+                    </div>
+                    <div class="stat-info">
+                        <div class="stat-title text-red">Số đơn hàng<br>đã nhận:</div>
+                        <div class="stat-number red">219 đơn hàng</span></div>
+                    </div>
+                </div>
+
+                <div class="stat-card stat-card-gift">
+                    <div class="stat-info-block">
+                        <span class="stat-info-text">Quà bất ngờ đã phát:</span> 
+                        <span class="stat-info-value stat-info-value-red">219 lần</span>
+                    </div>
+                    <div>
+                        <span class="stat-info-text">Tỉ lệ nhận quà đặc biệt:</span> 
+                        <span class="stat-info-value stat-info-value-green">10%</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle-section">
+                <div class="chart-card">
+                    <img src="image/image.png" alt="Biểu đồ thống kê" class="chart-img-placeholder">
+                </div>
+
+                <div class="widgets-column">
+                    <div class="widget-card">
+                        <div class="widget-header">
+                            <span class="widget-title">Thống kê quà đã phát</span>
+                            <span class="widget-value">219</span>
+                        </div>
+                        <ul class="list-stats">
+                            <li><span>• Quà common</span> <span>170(70%)</span></li>
+                            <li><span>• Quà Rare</span> <span>40(20%)</span></li>
+                            <li><span>• Quà Epic</span> <span>9(10%)</span></li>
+                        </ul>
+                        <button class="btn-action">Quản lí cấu hình quà</button>
+                    </div>
+
+                    <div class="widget-card">
+                        <div class="widget-header widget-header-center">
+                            <span class="widget-title widget-title-center">Top 3 món chạy nhất</span>
+                        </div>
+                        <div class="top-products">
+                            <div class="product-item">
+                                <img src="image/product-1.jpg" class="product-img">
+                                <span class="product-name">Matcha</span>
+                            </div>
+                            <div class="product-item top-1">
+                                <span class="crown">👑</span>
+                                <img src="image/product-2.jpg" class="product-img">
+                                <span class="product-name">Cafe muối</span>
+                            </div>
+                            <div class="product-item">
+                                <img src="image/product-3.jpg" class="product-img">
+                                <span class="product-name">Croissants</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-section">
+                <div class="delivery-img-container">
+                    <img src="image/shipper.png" alt="Delivery" class="delivery-img">
+                </div>
+                <div class="orders-list">
+                    <div class="orders-header">Đơn hàng gần đây:</div>
+                    <div class="order-row">
+                        <span>#12348</span>
+                        <span class="tag tag-orange">Chờ xác nhận</span>
+                    </div>
+                    <div class="order-row">
+                        <span>#12347</span>
+                        <span class="tag tag-blue">Chờ giao</span>
+                    </div>
+                    <div class="order-row">
+                        <span>#12346</span>
+                        <span class="tag tag-blue">Chờ giao</span>
+                    </div>
+                    <div class="order-row">
+                        <span>#12345</span>
+                        <span class="tag tag-green">Đã giao</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+</html>
