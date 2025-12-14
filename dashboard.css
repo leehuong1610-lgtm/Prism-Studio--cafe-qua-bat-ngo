@@ -115,7 +115,9 @@
         }
 
         .nav-btn.inactive:hover {
-            background-color: #f0f0f0;
+            color: #f0f0f0;
+            background-color: #dda15e; 
+            transform: translateY(-2px);
         }
 
         .main-content {
