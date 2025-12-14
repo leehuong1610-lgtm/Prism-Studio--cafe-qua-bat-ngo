@@ -12,7 +12,8 @@
             align-items: center;
             min-height: 100vh;
             padding: 20px;
-            background-image: url("image/background.png");
+            background-image: url("Pictures/background.svg");
+            
             background-size: cover;
             background-position: center;
             background-blend-mode: overlay;
