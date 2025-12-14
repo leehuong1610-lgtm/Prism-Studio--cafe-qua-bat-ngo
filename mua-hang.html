@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="mua-hang.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Carattere&family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Island+Moments&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Kaisei+Decol&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mountains+of+Christmas:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rochester&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Mua hàng</title>
+</head>
+<body>
+    <div class="wrap">
+        <a href="#">
+            <img src="Pictures/Group 190.svg" alt="">
+        </a>
+        <div class="container">
+            <form id="form">
+                <div class="box">
+                    <div class="frame1">
+                        <img src="Pictures/Rectangle 4.png" alt="">
+                        <div class="textbox">
+                            <div class="title">Matcha Latte</div>
+                            <div class="discript">
+                                <p>
+                                    <span>Size:</span>
+                                    <select id="size">
+                                        <option value="s">S&nbsp;</option>
+                                        <option value="m">M&nbsp;</option>
+                                        <option value="l">L&nbsp;</option>
+                                        <option value="xl">XL&nbsp;</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <span>Số lượng: </span>
+                                    <input type="number" min="1" max="100" placeholder="1" style="width: 100px;" id="soluong" required>
+                                </p>
+                                <p>
+                                    <span>Phương thức: </span>
+                                    <select id="Phuongthuc">
+                                        <option value="tienmat">Tiền mặt</option>
+                                        <option value="chuyenkhoan">Chuyển khoản&nbsp;</option>
+                                    </select>
+                                </p>
+                                <p style="width: 300px; display: flex; flex-direction: row; gap: 10px;"><span >Thành tiền: </span><span id="thanhtien">35000 VNĐ</span></p>
+                                <p><span>Số điện thoại: </span><input type="tel" placeholder="Nhập số điện thoại" minlength="10" maxlength="10" required></p>
+                                <p><span>Địa chỉ: </span><input type="text" placeholder="Nhập địa chỉ" required></p>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="button" id="muahang">
+                        Tiếp tục
+                    </button>
+                    <div class="back" id="back1">
+                        <a href="#">
+                            <div class="button1">
+                                Trang chủ
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="button1 k">
+                                Lịch sử mua hàng
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </form>
+            <div class="overlay" id="overlay"></div>
+            <div class="sticker" id="sticker">
+                <img src="Pictures/bosticker.svg" alt="">
+            </div>
+            <div class="vip" id="vip">
+                <img src="Pictures/vevip.svg" alt="">
+            </div>
+            <div class="voucher" id="voucher">
+                <img src="Pictures/voucher.svg" alt="">
+            </div>
+            <div class="banh" id="banh">
+                <img src="Pictures/banhmuffin.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container1">
+            <div class="item1">
+                <img src="Pictures/Group 1.svg" alt="">
+                <div class="text">
+                    Cảm ơn bạn vì đã dừng chân tại website của chúng tôi, chúc bạn chọn được thức uống như ý muốn. Nhớ để lại bình luận nha.
+                </div>
+            </div>
+            <div class="item2">
+                <div class="title">
+                    Trang chủ
+                </div>
+                <p>Top đánh giá</p>
+            </div>
+            <div class="item2">
+                <div class="title">
+                    Hỗ Trợ
+                </div>
+                <p>Trung tâm trợ giúp</p>
+                <p>Báo cáo</p>
+                <p>Về chúng tôi</p>
+            </div>
+            <div class="item2">
+                <div class="title">
+                    Liên hệ
+                </div>
+                <div class="social">
+                    <img src="Pictures/youtube.svg" alt="">
+                    <img src="Pictures/instagram.svg" alt="">
+                    <img src="Pictures/twitter.svg" alt="">
+                    <img src="Pictures/facebook.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
