@@ -173,7 +173,7 @@ table {
     background: #fff6e8;
     border-radius: 12px;
     overflow: hidden;
-    border: 1px solid #3a2a1f;
+    border: 1px solid rgba(42, 0, 0, 1);
 }
 th {
     background: rgba(202, 157, 115, 1);
@@ -215,6 +215,112 @@ td {
 }
 .main-body .container .content .main-content .box-inner .box2 {
     width: 100%;
+    border-radius: 10px 10px 10px 56px;
+    background-color: rgba(255, 242, 223, 1);
+    border: 2px solid rgba(42, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.main-content .box-inner .box2 .title {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.6px;
+}
+.main-content .box-inner .box2 .type-of-gift {
+    width: 95%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.type-of-gift .item1 {
+    width: 275px;
+    padding: 10px 30px;
+    color:  rgba(1, 130, 11, 1);
+    border: 1px solid rgba(1, 130, 11, 1);
+    border-radius: 10px 10px 10px 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.type-of-gift .item2 {
+    width: 275px;
+    padding: 10px 30px;
+    color:  rgba(153, 98, 15, 1);
+    border: 1px solid rgba(153, 98, 15, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.type-of-gift .item3 {
+    width: 275px;
+    padding: 10px 30px;
+    color:  rgba(164, 11, 0, 1);
+    border: 1px solid rgba(164, 11, 0, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.type-of-gift .box-line {
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+.type-of-gift .box-line .line1 {
+    width: 100%;
+    height: 0;
+    border: 5px solid rgba(1, 130, 11, 1);
+    border-radius: 20px;
+}
+.type-of-gift .box-line .circle1 {
+    width: 18px;
+    height: 18px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    border: 1px solid rgba(1, 130, 11, 1);
+    position: absolute;
+    left: 80%;
+}
+.type-of-gift .box-line .line2 {
+    width: 100%;
+    height: 0;
+    border: 5px solid rgba(153, 98, 15, 1);
+    border-radius: 20px;
+}
+.type-of-gift .box-line .circle2 {
+    width: 18px;
+    height: 18px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    border: 1px solid rgba(153, 98, 15, 1);
+    position: absolute;
+    left: 40%;
+}
+.type-of-gift .box-line .line3 {
+    width: 100%;
+    height: 0;
+    border: 5px solid rgba(164, 11, 0, 1);
+    border-radius: 20px;
+}
+.type-of-gift .box-line .circle3 {
+    width: 18px;
+    height: 18px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    border: 1px solid rgba(164, 11, 0, 1);
+    position: absolute;
+    left: 5%;
 }
 
 
