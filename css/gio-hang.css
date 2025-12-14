@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Be Vietnam Pro;
+    font-family: "Be Vietnam Pro";
 }
 
 .main-body {
@@ -327,4 +327,104 @@ input {
             }
         }
     }
+}
+
+@media only screen and (max-width: 1175px) {
+.main-body .container .content .navigation {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.main-body .container .content {
+    width: 80%;
+    padding: 30px;
+    border-radius: 30px 100px;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(15.600000381469727px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+    background-color: rgba(255, 242, 223, 0.27);
+}
+.main-body .container .content .main-content {
+    width: 90%;
+    border-radius: 15px 30px 15px 87px;
+    background-color: rgba(255, 250, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .container .content .main-content .box-grid {
+    width: 95%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    justify-items: center;
+    gap: 35px;
+}
+.main-content .box-grid .item-grid {
+    width: 100%;
+    border-radius: 18px;
+    padding: 10px 10px 30px 10px;
+    background-color: rgba(226, 217, 200, 0.2);
+    border: 1.5px solid rgba(226, 217, 200, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.main-body .container .content .navigation .nav-1 {
+    width: 200px;
+    height: 55px;
+    border-radius: 9px 18px;
+    background-color: rgba(255, 250, 242, 1);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.op-nav-2 {
+    width: 160px;
+    height: 55px;
+    border-radius: 20px;
+    padding-left: 20px;
+    background-color: rgba(255, 250, 242, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.main-body .container .content .navigation .nav-2 {
+    width: 190px;
+    height: 55px;
+    border-radius: 9px 18px;
+    background-color: rgba(255, 250, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-body .container .content .navigation .nav-3 {
+    width: 170px;
+    height: 55px;
+    padding: 0 10px;
+    border-radius: 9px 45px 9px 18px;
+    background-color: rgba(255, 250, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.op-nav-3 {
+    width: 110px;
+    height: 55px;
+    border-radius: 9px 45px 9px 18px;
+    background-color: rgba(255, 250, 242, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
 }
