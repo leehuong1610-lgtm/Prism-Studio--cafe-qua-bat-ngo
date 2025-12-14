@@ -419,6 +419,12 @@
             border-radius: 8px;
             font-weight: bold;
             cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .btn-action:hover {
+            background-color: #9e7156;
         }
 
         .top-products {
