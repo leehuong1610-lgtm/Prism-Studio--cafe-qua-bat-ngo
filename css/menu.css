@@ -7,6 +7,9 @@ body{
     background-position: center;
 }
 
+.menu-prf{
+    font-family: 'Be Vietnam Pro';
+}
 .container{
     display: flex;
     flex-direction: column;
