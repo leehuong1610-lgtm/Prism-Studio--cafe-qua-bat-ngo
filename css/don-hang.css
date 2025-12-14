@@ -163,12 +163,12 @@ input {
 }
 .main-content .box-left {
     width: 38%;
-    height: 100%;
+    height: 755px;
     padding: 20px 40px 140px 45px;
     border-radius: 20px 20px 20px 71px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-items: center;
     gap: 20px;
     background-color: rgba(255, 242, 223, 1);
@@ -198,6 +198,14 @@ input {
     width: 20px;
     height: 21px;
 }
+.main-content .box-left .box-content-main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 .main-content .box-left .box-content-left {
     width: 100%;
     padding: 20px;
@@ -208,6 +216,11 @@ input {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+}
+.main-content .box-left .box-content-left:hover {
+    background-color: #ffc36a60;
+    transform: rotate(1deg);
+    transition: all 0.3s ease;
 }
 .main-content .box-left .box-content-left .code {
     font-weight: 400;
@@ -261,10 +274,21 @@ input {
     justify-content: center;
     align-items: center;
 } 
-
+.main-content .box-left .box-content-left .box-button .btn-tx:hover {
+    box-shadow: 2px 2px 4px 1px rgba(54, 2, 2, 0.658);
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.main-content .box-left .box-content-left .box-button .btn-tx-2:hover {
+    box-shadow: 2px 2px 4px 1px rgba(2, 54, 6, 0.658);
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 .main-content .box-right {
     width: 55%;
-    height: 100%;
+    height: 755px;
     padding: 20px 40px 45px 40px;
     border-radius: 20px 71px 20px 20px;
     display: flex;
@@ -352,6 +376,12 @@ input {
     letter-spacing: -0.6px;
     color: rgb(255, 255, 255);
 }
+.main-content .box-right .box-button .btn-edit .btn-1:hover {
+    box-shadow: 2px 2px 4px 1px rgba(2, 54, 6, 0.658);
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 .main-content .box-right .box-button .btn-edit .btn-2 {
     width: 100px;
     height: 30px;
@@ -364,6 +394,12 @@ input {
     font-size: 16px;
     letter-spacing: -0.6px;
     color: rgb(255, 255, 255);
+}
+.main-content .box-right .box-button .btn-edit .btn-2:hover {
+    box-shadow: 2px 2px 4px 1px rgba(54, 2, 2, 0.658);
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 
@@ -417,4 +453,101 @@ input {
             }
         }
     }
+}
+
+
+@media only screen and (max-width: 1370px) {
+    .main-content .box-left .title {
+        font-size: 24px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-left .box-content-left .text {
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-right .box-text .text2 {
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-right .box-text .text3 {
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-right .text {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-left .box-content-left .name {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-left .box-content-left .box-button .text-btn {
+        font-size: 16px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-right .box-infor .title {
+        font-size: 18px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-left .box-content-left .box-button .btn-tx {
+        width: 90px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+    .main-content .box-left .box-content-left .box-button .btn-tx-2 {
+        width: 90px;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+.main-body .container .content .main-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.main-content .box-left {
+    width: 100%;
+    height: auto;
+    padding: 20px 40px 45px 40px;
+    border-radius: 20px 71px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+    background-color: rgba(255, 242, 223, 1);
+}
+.main-content .box-left .box-content-main {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+.main-content .box-right .name {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.6px;
+    color: rgba(42, 0, 0, 1);
+    text-align: center;
+}
+.main-content .box-right {
+    width: 100%;
+    height: auto;
+    padding: 20px 40px 45px 40px;
+    border-radius: 20px 20px 20px 71px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-items: center;
+    gap: 20px;
+    background-color: rgba(255, 242, 223, 1);
+}
 }
