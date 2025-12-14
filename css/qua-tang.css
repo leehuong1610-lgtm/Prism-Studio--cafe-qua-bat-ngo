@@ -8,6 +8,10 @@ body {
     font-family: "Be Vietnam Pro";
 }
 
+a {
+  text-decoration: none;
+  color: rgba(42, 0, 0, 1);
+}
 .icon-prf {
     width: 30px;
     height: 30px;
