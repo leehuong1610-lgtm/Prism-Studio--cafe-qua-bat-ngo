@@ -20,6 +20,7 @@ body{
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(20px);
     padding: 30px;
+    margin-bottom: 40px;
     .phan-loai{
         width: 213px;
         border-radius: 31px 31px 0px 0px;
@@ -36,7 +37,7 @@ body{
         }
     }
     .wrap-container {
-        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
         background-color: #FFFAF2;
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 0 30px 30px 30px;
@@ -178,7 +179,7 @@ body{
             }
         }
         .wrap-container {
-            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
             background-color: #FFFAF2;
             border: 1px solid rgba(255, 255, 255, 0.3);
             border-radius: 0 30px 30px 30px;
