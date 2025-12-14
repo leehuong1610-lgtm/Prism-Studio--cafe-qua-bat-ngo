@@ -49,19 +49,19 @@
         <div class="wrap">
             <div class="item">
                 <div class="icon"><img src="/assets/cf-1.svg" alt=""></div>
-                <div class="text">Hot Coffee</div>
+                <div class="text">Cà phê nóng</div>
             </div>
             <div class="item">
                 <div class="icon"><img src="/assets/cf-2.svg" alt=""></div>
-                <div class="text">Cold Coffee</div>
+                <div class="text">Cà phê đá</div>
             </div>
             <div class="item">
                 <div class="icon"><img src="/assets/cf-3.svg" alt=""></div>
-                <div class="text"> Milk Coffee</div>
+                <div class="text">Cà phê sữa</div>
             </div>
             <div class="item">
                 <div class="icon"><img src="/assets/cf-4.svg" alt=""></div>
-                <div class="text">Dessert</div>
+                <div class="text">Bánh</div>
             </div>
         </div>
     </div>
@@ -162,7 +162,6 @@
             dropdown.style.display =
                 dropdown.style.display === "block" ? "none" : "block";
         };
-        // click ra ngoài thì đóng
         document.addEventListener("click", (e) => {
             if (!e.target.closest(".user-menu")) {
                 dropdown.style.display = "none";
