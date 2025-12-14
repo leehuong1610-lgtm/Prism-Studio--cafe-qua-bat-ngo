@@ -18,7 +18,8 @@ select {
     outline: none;
 }
 .menu-prf {
-    width: 200px;
+    font-family: 'Be Vietnam Pro';
+    width: 100px;
     height: 45px;
     border-radius: 30px;
     padding: 0 8px;
